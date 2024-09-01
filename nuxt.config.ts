@@ -2,5 +2,6 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-09-01',
   devtools: { enabled: true },
-  modules: ['@nuxt/ui']
+  modules: ['@nuxt/ui', '@nuxtjs/tailwindcss'],
+  css: ['@/public/global.scss'],
 })
